@@ -15,7 +15,7 @@ return [
     // 是否启用事件
     'with_event'       => true,
     // 默认应用
-    'default_app'      => 'index',
+    'default_app'      => 'midend',
     // 默认时区
     'default_timezone' => 'Asia/Shanghai',
 
@@ -32,5 +32,5 @@ return [
     // 错误显示信息,非调试模式有效
     'error_message'    => '页面错误！请稍后再试～',
     // 显示错误信息
-    'show_error_msg'   => false,
+    'show_error_msg'   => true,
 ];
